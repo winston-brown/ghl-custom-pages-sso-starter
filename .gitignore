@@ -1,7 +1,54 @@
-node_modules/
-dist/
+# macOS and editor noise
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment files
 .env
+.env.*
+!.env.example
+!*.env.example
+
+# Python
 __pycache__/
-*.pyc
-venv/
+*.py[cod]
+*$py.class
+.python-version
 .venv/
+venv/
+env/
+ENV/
+
+# Python tooling caches
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Node / Vite frontend
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+frontend/.vite/
+
+# Package manager caches
+.npm/
+.pnpm-store/
+.yarn/
+*.tsbuildinfo
+
+# Logs and runtime files
+*.log
+logs/
+*.pid
+
+# Local build artifacts
+build/
+tmp/
+temp/

@@ -4,7 +4,9 @@ A production-ready starter for implementing GoHighLevel Custom Pages SSO with a 
 
 This starter implements the [Custom Pages postMessage flow](https://marketplace.gohighlevel.com/docs/other/user-context-marketplace-apps) with AES-256-CBC decryption (OpenSSL-compatible EVP_BytesToKey), JWT session management, and TypeScript interfaces for the GHL user context payload.
 
-Full walkthrough: [Building GoHighLevel Custom Pages SSO](https://winstonbrown.me/blog/ghl-custom-pages-sso-starter)
+Companion blog post (architecture, implementation details, and production notes): [Building GoHighLevel Custom Pages SSO](https://winstonbrown.me/blog/ghl-custom-pages-sso-starter/)
+
+> Built by [BigPeesh](https://bigpeesh.com), a scoped MCP server for safely connecting AI agents to CRM data with read-only defaults, granular permissions, audit logs, and revocable connection keys.
 
 ## Architecture
 
